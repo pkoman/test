@@ -1,0 +1,73 @@
+/*  
+(C) 2011 egotaco.com
+http://egotaco.com/shichiro-coming-soon-landingpage/
+*/
+
+#bg2{
+	position: absolute;
+	bottom: 0px;
+	height: 308px;width: 100%;
+	z-index: -9999;
+	background: transparent url('../img/bg-illustration.png') no-repeat center bottom;}
+
+body:after {content: url(../img/bg.jpg) url(../img/logo.png) url(../img/bg-illustration.png.html) url(../img/bg-box.png) url(../img/bt1.png) ; display: none;}
+html, body, h1, h2, p, a{
+	margin: 0;padding: 0;
+	font-family: 'Proxima Nova', 'Segoe UI', pn, 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	font-weight: inherit;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+	color: #999;
+	text-transform:lowercase;}
+html{background: #131519 url(../img/bg.jpg) no-repeat center top;}
+body{top: 0;bottom: 0;}
+a:active, #form_bt:active{position:relative;top:1px;}
+#copyright{text-align: center;font-size: 13px;margin: 30px 0 100px;}
+#copyright a:hover {color: #fff;text-decoration: underline;}
+#wrapper{
+	width: 590px;height: 170px;
+	margin: 11% auto 0;
+	padding: 25px 100px 0;
+	background: url(../img/bg-box.png) no-repeat center top;}
+h1{
+	width: 228px;height: 43px;
+	float: left;
+	padding-right: 40px;
+	background: transparent url(../img/logo.png) no-repeat center center;
+	text-indent: -9999px;
+}
+h2{	font: 20px/25px 'Proxima Nova', 'Segoe UI', pnl, 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	color: #ccc;
+	margin-bottom: 30px;
+	font-weight: lighter;}
+h2 b{
+	color: #fff;
+	letter-spacing: -1px;
+	font-family: 'Proxima Nova', 'Segoe UI', pnb, 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	font-weight: bold;}
+#form{
+	width: 545px;height: 51px;
+	margin: 0 auto;
+	padding: 30px 0 0;}
+#form_txt{
+	width: 300px;
+	height: 42px;
+	font: 18px 'Proxima Nova', 'Segoe UI', pn, 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	color: #666;
+	border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
+	box-shadow:0 1px 0px #51586E;-webkit-box-shadow: 0 1px 0px #51586E;-moz-box-shadow:0 1px 0px #51586E;
+	border: 1px solid #191B21;
+	-webkit-background-clip: padding-box;
+	background: #fff url(../img/bg-form.png) repeat-x;
+	padding: 0 10px;
+	margin-right: 10px;}
+#form_bt{
+	width: 204px;height: 51px;
+	background: url(../img/bt1.png) no-repeat;
+	border: none;
+	text-indent: -9999px;
+	cursor: pointer;}
+#wrapper ul{width: 265px;height: 25px;padding: 0;margin: 170px auto 0;}
+#wrapper ul li{list-style: none;display: inline;float: left;}
+@font-face {font-family: "pn";src: local('pn'),url('../img/pn.otf') format('opentype')}@font-face {font-family: "pnl";src: local('pnl'),url('../img/pnl.otf') format('opentype')}@font-face {font-family: "pnb";src: local('pnb'),url('../img/pnb.otf') format('opentype')}
